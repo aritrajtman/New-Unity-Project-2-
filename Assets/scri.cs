@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class scri : MonoBehaviour
 {
-    public int edad;
+    public int edad1;
     public int altura;
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,7 @@ public class scri : MonoBehaviour
         {
             Debug.Log("no podes pasar");
         }
-        else if (edad < 13)
+        else if (edad1 < 13)
         {
             Debug.Log("no podes pasar");
         }
@@ -21,7 +21,7 @@ public class scri : MonoBehaviour
         {
             Debug.Log("podes pasar");
         }
-        if (edad< 1)
+        if (edad1< 1)
         {
             Debug.Log("error");
         }
